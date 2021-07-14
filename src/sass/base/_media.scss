@@ -132,12 +132,12 @@
         &-panel {
             display: flex;
             margin-top: 15px;
-            width: 233px;
-        }
-        &__descr {
-            width: 170px;
-            span {
-                width: 155px;
+            width: 260px;
+            &__descr {
+                width: 170px;
+                span {
+                    width: 170px;
+                }
             }
         }
     }
