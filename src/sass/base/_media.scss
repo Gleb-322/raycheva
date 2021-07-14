@@ -110,7 +110,7 @@
         color: #fff;
     }
     .preview {
-        padding-top: 70px;
+        padding-top: 60px;
         &__title {
             display: none;
             ::before {
@@ -126,18 +126,22 @@
         }
         &__block {
             display: block;
-            margin-top: 15px;
+            margin-top: 10px;
             width: 100%;
         }
         &-panel {
             display: flex;
-            margin-top: 15px;
-            width: 260px;
+            margin-top: 10px;
+            height: 45px;
+            width: 270px;
             &__descr {
-                width: 170px;
+                width: 200px;
                 span {
-                    width: 170px;
+                    width: 200px;
                 }
+            }
+            &__link {
+                display: none;
             }
         }
     }
