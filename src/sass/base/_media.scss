@@ -1,0 +1,156 @@
+@media (max-width: 1360px) { 
+    .sidepanel {
+        display: none;
+    }
+    .preview {
+        &-panel {
+            display: flex;
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .title {
+        &_fz30 {
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+    .preview {
+        &__block {
+            width: 470px;
+        }
+        &-panel {
+            width: 225px;
+            &__devider {
+                display: none;
+            }
+        }
+    }
+    .policy .policy__block {
+        line-height: 28px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .preview {
+        padding-top: 150px;
+    }
+    .policy .policy__block {
+        line-height: 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .title {
+        &_fz30 {
+            font-size: 20px;
+            line-height: 35px;
+        }
+    }
+    .button {
+        &:hover {
+            border: 2px solid #d0d0d0;
+            background: $main-color;
+            box-shadow: none;
+        }
+    }
+    .preview {
+        padding-top: 80px;
+    }
+    .reg {
+        padding: 60px 0;
+        &__title {
+            font-size: 33px;
+        }
+        &__policy {
+            a {
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+    .footer {
+        &__info {
+            width: 300px;
+        }
+    }
+    .policy .policy__block {
+        h2 {
+            font-size: 18px;
+        }
+        ul {
+            padding: 10px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {   
+        width: 100%;
+        padding: 0 10px;
+    }
+    .title {
+        line-height: 30px;
+        br {
+            display: block;
+        }
+    }
+    .preview__subtitle_mini {
+        display: block;
+        margin-top: 10px;
+        color: #fff;
+    }
+    .preview {
+        padding-top: 60px;
+        &__subtitle {
+            display: none;
+        }
+        &__block {
+            display: block;
+            margin-top: 10px;
+            width: 100%;
+        }
+        &-panel {
+            display: flex;
+            margin-top: 10px;
+            width: 215px;
+        }
+    }
+    .reg {
+        padding: 40px 0;
+        &__title {
+            font-size: 25px;
+        }
+    }
+    .footer {
+        &__info {
+            padding: 10px;
+            width: 220px;
+        }
+    }
+    .policy .policy__block {
+        line-height: 18px;
+        font-size: 14px;
+        ul {
+            padding: 0;
+        }
+        h1 {
+            font-size: 16px;
+        }
+        h2 {
+            font-size: 15px;
+        }
+    }
+}

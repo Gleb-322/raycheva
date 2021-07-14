@@ -1,0 +1,92 @@
+.reg {
+    padding: 70px 0;
+    width: 100%;
+    min-height: 650px;
+    background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+    &__title {
+        color: #fff;
+    }
+    &__devider {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90px;
+    }
+    &-form {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        &__input {
+            height: 50px;
+            width: 308px;
+            border-radius: 5px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 0 20px;
+            border: none;   
+            outline: none;
+            color: #4b4b4b;
+            font-size: 14px;
+        }
+        .error {
+            border: 1px solid red;
+        }
+        label.error {
+            border: none;
+            text-align: center;
+            color: #fff;
+        }
+        &-top {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            &__input {
+                height: 50px;
+                width: 308px;
+                border-radius: 5px;
+                background-color: #fff;
+                margin-bottom: 20px;
+                padding: 0 20px;
+                border: none;   
+                outline: none;
+                color: #4b4b4b;
+                font-size: 14px;
+            }
+            .error {
+                border: 1px solid red;
+            }
+            label.error {
+                border: none;
+                text-align: center;
+                color: #fff;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    
+    &__policy {
+        label {
+            margin-bottom: 10px;
+        }
+        span {
+            font-size: 14px;
+            line-height: 14px;
+            color: #fff;
+            margin-left: 5px;
+        }
+        a {
+            font-size: 14px;
+            line-height: 14px;
+            color: $main-color;
+            transition: 0.5s all;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}

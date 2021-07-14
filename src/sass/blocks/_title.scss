@@ -1,0 +1,25 @@
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 14px;
+    z-index: 1;
+    @include before_circle;
+    &_fz30 {
+        font-size: 32px;
+        line-height: 40px;
+        padding-left: 0px;
+        &:before {
+            display: none;
+        }
+    }
+    &_fz36 {
+        font-size: 36px;
+        line-height: 60px;
+        text-align: center;
+        &:before {
+            display: none;
+        }
+    }
+}

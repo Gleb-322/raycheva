@@ -1,0 +1,27 @@
+.button {
+    background: $main-color;
+    width: 219px;
+    height: 45px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    font-size: 13px;
+    border: 2px solid #d0d0d0;
+    transition: 0.5s all; 
+    color: #fff;
+    &:hover {
+        border: 2px solid $main-color;
+        box-shadow: 0px 0px 35px #fff;
+    }
+    &_submit {
+        width: 308px;
+        height: 50px;
+        font-size: 14px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    &_val {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+}
