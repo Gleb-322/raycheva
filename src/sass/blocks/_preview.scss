@@ -8,7 +8,7 @@
     background: url('../img/main_bg.jpg') center (center / cover) no-repeat;
     &__title {
         color: #fff;
-        br {
+        &_mini {
             display: none;
         }
     }
