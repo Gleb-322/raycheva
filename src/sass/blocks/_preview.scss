@@ -19,7 +19,7 @@
     &__block {
         display: flex;
         margin-top: 40px;
-        width: 520px;
+        width: 610px;
         height: 45px;
         justify-content: space-between;
         align-items: flex-end;
@@ -28,23 +28,23 @@
         display: none;
         justify-content: space-between;
         align-items: center;
-        width: 270px;
-        height: 40px;
+        width: 375px;
+        height: 45px;
         z-index: 3;
         &__devider {
             height: 2px;
-            width: 50px;
-            background-color: $main-color;
+            width: 100px;
+            background-color: $side-panel;
         }
         &__descr {
-            width: 140px;
+            width: 155px;
             height: 25px;
             font-size: 16px;
-            color: $main-color;
+            color: $side-panel;
             text-decoration: none;
             span {
                 display: block;
-                width: 145px;
+                width: 160px;
             }
         }
     }
